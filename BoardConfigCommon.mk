@@ -196,8 +196,6 @@ include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
-SELINUX_IGNORE_NEVERALLOWS := true
-
 # Soong
 SOONG_CONFIG_NAMESPACES += xiaomiSm6150Vars
 SOONG_CONFIG_xiaomiSm6150Vars += \
